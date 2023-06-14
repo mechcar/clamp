@@ -1,0 +1,56 @@
+.Clamp {
+	max-width: 120rem;
+	padding: 2rem;
+}
+
+.clamp-form {
+	display: flex;
+	justify-content: center;
+	gap: 4.8rem;
+}
+
+.clamp-column {
+	display: flex;
+	flex-direction: column;
+	gap: 1.2rem;
+}
+
+.clamp-column h4 {
+	margin: 0;
+}
+
+.clamp-input {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.clamp-input label {
+	padding-right: 1rem;
+}
+
+.clamp-input input[type="number"] {
+	min-width: fit-content;
+}
+
+.clamp-input .metric {
+	position: absolute;
+	right: 0.5rem;
+	bottom: 0.2rem;
+}
+
+.units {
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.units h4 {
+	flex: 0 0 100%;
+}
+.units input,
+.units label {
+	flex: 0 0 45%;
+}
+
+.units label {
+	padding-right: 0;
+}
